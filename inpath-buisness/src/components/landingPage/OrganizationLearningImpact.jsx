@@ -50,7 +50,7 @@ const OrganizationLearningImpact = () => {
             See the impact of online learning for businesses. Let’s start on a
             plan that supports your goals.
           </h1>
-          <button className=" cursor-pointer bg-primaryColor text-white py-2 px-6  hover:bg-hoverColor">
+          <button className=" cursor-pointer bg-primaryColor text-white py-2 px-6  hover:bg-hoverColor rounded-md">
             Request a demo
           </button>
         </div>
@@ -77,7 +77,7 @@ const OrganizationLearningImpact = () => {
               className={`rounded-xl w-1/3 h-72 -mt-8 transition-all duration-1000 ease-in-out transform ${
                 inView ? "-translate-x-24 " : "-translate-x-full"
               }`}
-              src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt=""
             />
           </div>
@@ -88,14 +88,14 @@ const OrganizationLearningImpact = () => {
               className={`rounded-xl w-1/3 h-72 transition-all duration-1000 ease-in-out transform ${
                 inView ? "translate-x-40" : "translate-x-full"
               }`}
-              src="https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt=""
             />
             <img
               className={`rounded-xl w-1/3 h-72 -mt-8 transition-all duration-1000 ease-in-out transform ${
                 inView ? "translate-x-24" : "translate-x-full"
               }`}
-              src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/1386604/pexels-photo-1386604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt=""
             />
           </div>
