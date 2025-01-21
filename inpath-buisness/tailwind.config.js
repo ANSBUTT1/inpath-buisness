@@ -12,6 +12,10 @@ module.exports = {
         PrimaryBackground: '#f7f9fa',
         secondaryBackground: '#ffffff',
       }
+      ,
+      fontWeight: {
+        primaryFont: '700', // Define primaryFont as a font-weight value
+      },
     },
   },
   plugins: [],
