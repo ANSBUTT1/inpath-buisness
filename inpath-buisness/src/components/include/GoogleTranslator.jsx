@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaLanguage } from "react-icons/fa"; // Import the translate icon
+// import { FaLanguage } from "react-icons/fa"; // Import the translate icon
 import axios from "axios"; // Import axios for API calls
 import Flag from "react-world-flags"; // Import react-world-flags to display flags
 import icon from "../../assets/language-icon2.svg";
