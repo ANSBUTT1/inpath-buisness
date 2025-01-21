@@ -3,7 +3,8 @@ import React from "react";
 const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline text-blue-400">Hello world!</h1>
+      <h1 className=" bg-PrimaryBackground p-8 text-primaryColor font-bold text-6xl hover:text-hoverColor">Hello world!</h1>
+      <h1 className=" bg-secondaryBackground p-8 text-secondaryColor font-bold text-6xl hover:text-hoverColor">Hello world!</h1>
     </div>
   );
 };
