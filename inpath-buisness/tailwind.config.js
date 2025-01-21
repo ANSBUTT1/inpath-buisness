@@ -13,7 +13,7 @@ module.exports = {
         secondaryBackground: '#ffffff',
       },
       fontWeight: {
-        primaryFont: '700', 
+        primaryFont: '700',
       },
     },
   },
