@@ -11,7 +11,10 @@ module.exports = {
         hoverColor: '#003865',
         PrimaryBackground: '#f7f9fa',
         secondaryBackground: '#ffffff',
-      }
+      },
+      fontWeight: {
+        primaryFont: '700', 
+      },
     },
   },
   plugins: [],
