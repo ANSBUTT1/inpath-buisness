@@ -4,11 +4,7 @@
   "private": true,
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
-<<<<<<< HEAD
     "axios": "^1.7.9",
-=======
-    "bootstrap": "^5.3.3",
->>>>>>> d275cc9 (landing page)
     "cra-template": "1.2.0",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.8",
