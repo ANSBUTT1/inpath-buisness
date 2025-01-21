@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors:{
+      colors: {
         primaryColor: '#00528d',
         secondaryColor: '#000000',
         hoverColor: '#033c64',
@@ -18,4 +18,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};

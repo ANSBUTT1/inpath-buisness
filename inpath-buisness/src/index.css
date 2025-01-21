@@ -3,10 +3,9 @@
 @tailwind utilities;
 
 
-*{
+* {
   font-family: "Nunito", sans-serif;
 }
-
 
 .btn-goble-bg {
   border: 1px solid #00528d;
@@ -20,4 +19,132 @@
   border: 2px solid #000000;
   padding: 8px 18px;
   border-radius: 4px;
+}
+
+.mega-navbar {
+  position: absolute;
+  top: 4.7rem;
+  left: 31rem;
+  width: auto;
+  background: white;
+  padding: 20px 30px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  border-radius: 5px;
+  z-index: 99;
+}
+
+.text-heading {
+  font-size: 16px;
+  font-weight: 900;
+  color: #6a6f73;
+}
+
+.text {
+  font-weight: 700;
+  font-size: small;
+  color: #646464;
+}
+
+.text2 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #646464;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-20%);
+  }
+}
+
+.carousel-container {
+  height: 100px;
+  /* Match the logo height */
+  position: relative;
+}
+
+.carousel-track {
+  width: calc(200%);
+  /* Allow space for seamless scrolling */
+  animation: scroll 20s linear infinite;
+}
+
+.carousel-track.pause {
+  animation-play-state: paused;
+  /* Pause animation when hovered */
+}
+
+.logo-wrapper img {
+  transition: transform 0.3s ease;
+  /* Smooth hover effect */
+}
+
+.logo-wrapper img:hover {
+  transform: scale(1.1);
+  /* Slight zoom effect on hover */
+}
+
+.bg-gradient-to-r {
+  background: linear-gradient(to right, white, rgba(255, 255, 255, 0.7), transparent);
+}
+
+.bg-gradient-to-l {
+  background: linear-gradient(to left, white, rgba(255, 255, 255, 0.7), transparent);
+}
+
+.GoIcon {
+  width: 40px;
+  border: 2px solid black;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.Arrow_icon {
+  font-size: 27px;
+  margin: 5px auto;
+}
+
+.service-card {
+  transition: all 0.6s ease; /* Smooth transition for all changes */
+}
+
+.service-card:hover {
+  border: 2px solid #e2e2e2; /* Show the border on hover */
+  border-radius: 20px; /* Apply border-radius on hover */
+}
+
+/* Adjust border when hovering over service-card */
+.service-card:hover {
+  border-right: 2px solid #e2e2e2; /* Show border on the right when hovering */
+}
+
+.service-card .GoIcon {
+  transition: background-color 0.3s ease;
+}
+
+.service-card:hover .GoIcon {
+  background-color: #00528d; /* Background color for GoIcon on hover */
+  border-color: #00528d; /* Border color for GoIcon on hover */
+}
+
+.service-card:hover .GoIcon .Arrow_icon {
+  color: white; /* Change Arrow_icon color to white on GoIcon hover */
+}
+
+/* Move the title up smoothly on hover and back down when not hovering */
+.service-card .mt-6 p {
+  transition: transform 0.6s ease; /* Slower transition for title movement */
+}
+
+.service-card:hover .mt-6 p {
+  transform: translateY(-10px); /* Moves the title up by 10px */
+}
+
+/* Add border on right for all but last card */
+.service-card:not(:last-child) {
+  border-right: 2px solid #e2e2e2; /* Apply right border to all cards except the last one */
 }

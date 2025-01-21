@@ -1,13 +1,10 @@
 import React from 'react'
-import BusinessPlatform from '../components/landingPage/BusinessPlatform'
-import OrganizationLearningImpact from '../components/landingPage/OrganizationLearningImpact'
-import CustomerExperience from '../components/landingPage/CustomerExperience'
+import Header from '../components/include/Header'
+
 const Home = () => {
   return (
     <div>
-     <BusinessPlatform/>
-      <CustomerExperience/>
-     <OrganizationLearningImpact/>
+      <Header />
     </div>
   )
 }
