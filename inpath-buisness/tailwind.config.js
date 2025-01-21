@@ -8,13 +8,12 @@ module.exports = {
       colors:{
         primaryColor: '#00528d',
         secondaryColor: '#000000',
-        hoverColor: '#003865',
+        hoverColor: '#033c64',
         PrimaryBackground: '#f7f9fa',
         secondaryBackground: '#ffffff',
-      }
-      ,
+      },
       fontWeight: {
-        primaryFont: '700', // Define primaryFont as a font-weight value
+        primaryFont: '700',
       },
     },
   },

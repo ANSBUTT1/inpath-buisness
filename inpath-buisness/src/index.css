@@ -6,3 +6,18 @@
 *{
   font-family: "Nunito", sans-serif;
 }
+
+
+.btn-goble-bg {
+  border: 1px solid #00528d;
+  padding: 8px 18px;
+  border-radius: 4px;
+  background-color: #00528d;
+  color: white;
+}
+
+.btn-goble {
+  border: 2px solid #000000;
+  padding: 8px 18px;
+  border-radius: 4px;
+}

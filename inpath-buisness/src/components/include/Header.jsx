@@ -3,7 +3,7 @@ import logo from '../../assets/logo.png';
 
 const Header = () => {
   return (
-    <div className='px-40 p-4'>
+    <div className='px-40 p-6'>
       <div className=''>
         <img src={logo} alt="" className='' style={{ width: '8%' }} />
         <div className=''>
