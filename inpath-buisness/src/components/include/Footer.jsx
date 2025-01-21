@@ -9,54 +9,54 @@ const Footer = () => {
       <footer>
         <main className="flex flex-col lg:flex-row justify-between items-start gap-8">
           {/* portion one */}
-          <div className="flex flex-col  gap-6 md:gap-16 md:flex-row lg:gap-20">
+          <div className="flex flex-col  gap-6 md:gap-16 md:flex-row lg:gap-36">
             <div>
-              <h1 className="font-bold text-xl">InPATH Business</h1>
-              <ul className="flex flex-col gap-3 mt-4">
-                <li>
+              <h1 className="font-primaryFont text-lg">InPATH Business</h1>
+              <ul className="flex flex-col gap-3 mt-4 text-sm">
+                <li className="hover:text-primaryColor hover:font-primaryFont">
                   <Link> About Us</Link>
                 </li>
-                <li>
+                <li className="hover:text-primaryColor hover:font-primaryFont">
                   <Link>Events</Link>
                 </li>
-                <li>
+                <li className="hover:text-primaryColor ">
                   <Link>Partners & Integrations</Link>
                 </li>
-                <li>
+                <li className="hover:text-primaryColor hover:font-primaryFont">
                   <Link>Partner with INPATH</Link>
                 </li>
-                <li>
+                <li className="hover:text-primaryColor hover:font-primaryFont">
                   <Link>Take a product tour</Link>
                 </li>
-                <li>
+                <li className="hover:text-primaryColor hover:font-primaryFont">
                   <Link>News</Link>
                 </li>
-                <li>
+                <li className="hover:text-primaryColor hover:font-primaryFont" >
                   <Link>Investor Relations</Link>
                 </li>
-                <li className="italic">
-                  {" "}
+                <li className="italic hover:text-primaryColor hover:font-primaryFont">
+                  
                   <Link>Careers - we're hiring!</Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h1 className="font-bold text-xl ">Contact Us</h1>
-              <ul className="flex flex-col gap-3 mt-4">
-                <li>
+              <h1 className="font-primaryFont text-lg ">Contact Us</h1>
+              <ul className="flex flex-col gap-3 mt-4 text-sm">
+                <li className="hover:text-primaryColor hover:font-primaryFont">
                   {" "}
                   <Link>Help</Link>
                 </li>
-                <li>
+                <li className="hover:text-primaryColor hover:font-primaryFont">
                   <Link>Terms & conditions</Link>
                 </li>
-                <li>
+                <li className="hover:text-primaryColor hover:font-primaryFont">
                   <Link>Privacy policy</Link>
                 </li>
-                <li>
+                <li className="hover:text-primaryColor hover:font-primaryFont">
                   <Link>Cookie settings</Link>
                 </li>
-                <li>
+                <li className="hover:text-primaryColor hover:font-primaryFont">
                   <Link>Sitemap</Link>
                 </li>
               </ul>
@@ -66,7 +66,7 @@ const Footer = () => {
           {/* portion two */}
           <div className="flex flex-col lg:flex-row justify-center items-center gap-8">
             <div className="flex gap-6">
-              <h1 className="font-bold">Follow us</h1>
+              <h1 className="font-primaryFont">Follow us</h1>
               <ul className="flex gap-4">
                 <li>
                   <a href="" target="_blank" rel="noopener noreferrer">
@@ -98,7 +98,7 @@ const Footer = () => {
       </footer>
       <hr className="my-8" />
       <div className="flex flex-col lg:flex-row justify-start items-center gap-8">
-        <h1 className="text-xl font-semibold lg:w-1/3 text-center lg:text-left">
+        <h1 className="text-lg  lg:w-1/3 text-center lg:text-left">
           Reviewers recommended learning with INPATH Business
         </h1>
         <div className="flex justify-center gap-4">
@@ -117,10 +117,10 @@ const Footer = () => {
       <hr className="my-8" />
       <div className="flex flex-col lg:flex-row justify-between items-center gap-4">
         <div className="flex items-center gap-4">
-          <h1 className="text-2xl font-bold lg:border-e lg:pe-4">INPATH</h1>
+          <h1 className="text-lg font-primaryFont lg:border-e lg:pe-4">INPATH</h1>
           <p>The power of possibilities</p>
         </div>
-        <div>© 2025 INPATH, Inc.</div>
+        <div className="hover:text-primaryColor ">© 2025 INPATH, Inc.</div>
       </div>
     </div>
   );
