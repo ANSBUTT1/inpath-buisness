@@ -7,15 +7,13 @@ import Footer from "./components/include/Footer";  // Ensure this file exists
 const App = () => {
   return (
     <Router>
-      <div>
-        <Header /> {/* Display Header on all pages */}
-        
-        {/* Define the routes */}
+      <div> 
+        <Header /> 
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
         
-        <Footer /> {/* Display Footer on all pages */}
+        <Footer />
       </div>
     </Router>
   );
