@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import { Link } from "react-router-dom";
 const OrganizationLearningImpact = () => {
   const [inView, setInView] = useState(false);
 
@@ -50,9 +50,10 @@ const OrganizationLearningImpact = () => {
             See the impact of online learning for businesses. Let’s start on a
             plan that supports your goals.
           </h1>
+          <Link to="/signup">
           <button className=" cursor-pointer bg-primaryColor text-white py-2 px-6  hover:bg-hoverColor rounded-md">
             Request a demo
-          </button>
+          </button></Link>
         </div>
         <div className="mt-20 z-10">
           <h1 className="text-xl font-semibold">
