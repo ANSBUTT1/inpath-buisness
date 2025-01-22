@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroImg from '../../assets/heroSection.png'
+import { Link } from 'react-router-dom';
 const HeroSection = () => {
     return (
         <div className='px-40 p-4 mt-10'>
@@ -14,9 +15,10 @@ const HeroSection = () => {
                     <h1 className='text-xl font-bold'>When people grow, business does too</h1>
                     <div className='flex gap-4 mt-2'>
                         <button className='font-primaryFont btn-goble-bg hover:bg-hoverColor'>Compare plans</button>
+                       <Link to="/signup">
                         <button className='font-primaryFont btn-goble hover:bg-PrimaryBackground'>
                             Request a demo
-                        </button>
+                        </button></Link>
                     </div>
                 </div>
             </div>

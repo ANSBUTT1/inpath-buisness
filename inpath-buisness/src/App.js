@@ -8,11 +8,13 @@ import SignUp from "./pages/SignUp/SignUp";
 
 
 import EnterpriseTraining from "./pages/what/EnterpriseTraining";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <Router>
       <div> 
+        <ScrollToTop/>
         <Header /> 
         <Routes>
           <Route path="/" element={<Home />} />

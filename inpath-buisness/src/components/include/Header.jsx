@@ -80,7 +80,8 @@ const Header = () => {
                     <div className="flex justify-center items-baseline gap-10">
                         <a href="#" className="hover:text-hoverColor font-primaryFont">Login</a>
                         <div className="flex gap-4">
-                            <button className="font-primaryFont btn-goble-bg hover:bg-hoverColor">Get Started</button>
+                            <Link to="/signup">
+                            <button className="font-primaryFont btn-goble-bg hover:bg-hoverColor">Get Started</button></Link>
                             <button className="font-primaryFont btn-goble hover:bg-PrimaryBackground">
                                 <GrLanguage />
                             </button>
