@@ -11,14 +11,14 @@ import NavigationSection from '../components/landingPage/NavigationSection'
 const Home = () => {
   return (
     <div className='overflow-hidden'>
-      <HeroSection/>
-      <BrandCarousel/>
-      <MainCard/>
-      <ServiceCard/>
+      <HeroSection />
+      <BrandCarousel />
+      <MainCard />
+      <ServiceCard />
       <NavigationSection />
-     <BusinessPlatform/>
-      <CustomerExperience/>
-     <OrganizationLearningImpact/>
+      <BusinessPlatform />
+      <CustomerExperience />
+      <OrganizationLearningImpact />
     </div>
   );
 };
