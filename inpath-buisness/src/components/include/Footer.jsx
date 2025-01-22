@@ -114,7 +114,7 @@ const Footer = () => {
           />
         </div>
       </div>
-      <hr className="my-8" />
+      <hr className="my-8 " />
       <div className="flex flex-col lg:flex-row justify-between items-center gap-4">
         <div className="flex items-center gap-4">
           <h1 className="text-lg font-primaryFont lg:border-e lg:pe-4">INPATH</h1>
