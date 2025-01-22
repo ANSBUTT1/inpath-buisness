@@ -1,9 +1,9 @@
 import React from 'react';  
-import BusinessImage from '../../assets/imgfive.png'; // Use your provided image path  
+import BusinessImage from '../../assets/infor.png'; // Use your provided image path  
 
 const BusinessPlatform = () => {  
   return (  
-    <div className="bg-secondaryColor/90 text-white py-12 lg:py-0 px-6 sm:px-16 md:px-40">  
+    <div className="bg-secondaryColor/90 text-white py-12 lg:py-0 px-6 sm:px-16 md:px-40 mt-10">  
       <div className="flex flex-col lg:flex-row justify-center items-center">  
         
         {/* Left Side: Image */}  

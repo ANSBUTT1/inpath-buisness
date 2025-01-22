@@ -20,19 +20,14 @@
   padding: 8px 18px;
   border-radius: 4px;
 }
-
 .mega-navbar {
-  position: absolute;
-  top: 4.7rem;
-  left: 31rem;
-  width: auto;
-  background: white;
-  padding: 20px 30px;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
-  border-radius: 5px;
-  z-index: 99;
+  min-width: 20rem;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  border: 1px solid #ddd;
 }
-
 .text-heading {
   font-size: 16px;
   font-weight: 900;
@@ -113,13 +108,8 @@
 }
 
 .service-card:hover {
-  border: 2px solid #e2e2e2; /* Show the border on hover */
-  border-radius: 20px; /* Apply border-radius on hover */
-}
-
-/* Adjust border when hovering over service-card */
-.service-card:hover {
-  border-right: 2px solid #e2e2e2; /* Show border on the right when hovering */
+  border-right: 2px solid #e2e2e2; /* Show the border on hover */
+  border-radius: 5px; /* Apply border-radius on hover */
 }
 
 .service-card .GoIcon {
@@ -129,6 +119,9 @@
 .service-card:hover .GoIcon {
   background-color: #00528d; /* Background color for GoIcon on hover */
   border-color: #00528d; /* Border color for GoIcon on hover */
+}
+.service-card:hover .serivce-title {
+  color: #00528d; /* Background color for GoIcon on hover */
 }
 
 .service-card:hover .GoIcon .Arrow_icon {
@@ -144,7 +137,7 @@
   transform: translateY(-10px); /* Moves the title up by 10px */
 }
 
-/* Add border on right for all but last card */
-.service-card:not(:last-child) {
-  border-right: 2px solid #e2e2e2; /* Apply right border to all cards except the last one */
+.activehometab{
+  color: black;
+  text-decoration: underline;
 }
