@@ -103,7 +103,7 @@ const MainCard = () => {
   };
 
   return (
-    <div className="mt-5 py-16">
+    <div className="mt-5 pb-16">
       {/* Heading */}
       <div className="flex justify-start md:justify-between items-center px-6 sm:px-16 md:px-40">
         <p className="text-start text-4xl font-primaryFont leading-tight w-1/2 hidden md:flex">
