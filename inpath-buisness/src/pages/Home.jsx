@@ -1,3 +1,4 @@
+
 import React from 'react'
 import BusinessPlatform from '../components/landingPage/BusinessPlatform'
 import OrganizationLearningImpact from '../components/landingPage/OrganizationLearningImpact'
@@ -19,7 +20,7 @@ const Home = () => {
       <CustomerExperience/>
      <OrganizationLearningImpact/>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
