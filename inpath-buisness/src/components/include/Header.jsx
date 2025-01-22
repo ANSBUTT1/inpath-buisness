@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import logo from '../../assets/logo2.png';
 import { GrLanguage } from "react-icons/gr";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [activeMenu, setActiveMenu] = useState(null); // State to track the active menu
@@ -45,7 +46,7 @@ const Header = () => {
         <div className="header-container"> {/* Add a class for scoping */}
             <div className="px-40 p-4">
                 <div className="flex justify-between items-center">
-                    <img src={logo} alt="" className="" style={{ width: '18%' }} />
+                    <Link to='/' style={{ width: '18%' }} ><img src={logo} alt="" className="" style={{ width: '100%' }} /></Link>
                     <div className="flex gap-8">
                         <a
                             href="#"
@@ -106,7 +107,7 @@ const Header = () => {
                             <div className="flex justify-between gap-10">
                                 <div className="flex flex-col gap-3">
                                     <a className="text-heading mb-1">By need</a>
-                                    <a className="text hover:text-hoverColor">Enterprise-Wide Training</a>
+                                    <Link to='/enterprice' className="text hover:text-hoverColor">Enterprise-Wide Training</Link>
                                     <a className="text hover:text-hoverColor">Small Team Training</a>
                                     <a className="text hover:text-hoverColor">Tech Team Training</a>
                                     <a className="text hover:text-hoverColor">Leadership Development</a>

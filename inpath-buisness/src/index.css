@@ -141,3 +141,10 @@
   color: black;
   text-decoration: underline;
 }
+.enterPrice-bg {
+  background-color: #ffffff;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+}
