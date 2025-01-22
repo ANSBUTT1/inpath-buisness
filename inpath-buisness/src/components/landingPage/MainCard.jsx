@@ -103,7 +103,7 @@ const MainCard = () => {
   };
 
   return (
-    <div className="mt-5 py-16">
+    <div className="mt-5 pb-16">
       {/* Heading */}
       <div className="flex justify-start md:justify-between items-center px-6 sm:px-16 md:px-40">
         <p className="text-start text-4xl font-primaryFont leading-tight w-1/2 hidden md:flex">
@@ -156,7 +156,7 @@ const MainCard = () => {
                 {/* Card with background image */}
                 <div
                   style={{ backgroundImage: `url(${image})` }}
-                  className="group relative bg-cover bg-center h-[400px] w-[94%] rounded-2xl shadow-lg overflow-hidden transform transition-all duration-700 hover:translate-y-2"
+                  className="group cursor-pointer relative bg-cover bg-center h-[400px] w-[94%] rounded-2xl shadow-lg overflow-hidden transform transition-all duration-700 hover:translate-y-2"
                 >
                   <div className="absolute top-4 left-4 text-xs p-2 border border-secondaryColor/60 ">
                     <span>{check}</span>
