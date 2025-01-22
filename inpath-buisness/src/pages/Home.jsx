@@ -6,13 +6,15 @@ import MainCard from "../components/landingPage/MainCard"
 import BrandCarousel from "../components/landingPage/BrandCarousel"
 import ServiceCard from '../components/landingPage/ServiceCard'
 import HeroSection from '../components/landingPage/HeroSection'
+import NavigationSection from '../components/landingPage/NavigationSection'
 const Home = () => {
   return (
     <div className='overflow-hidden'>
       <HeroSection/>
       <BrandCarousel/>
-      <ServiceCard/>
       <MainCard/>
+      <ServiceCard/>
+      <NavigationSection />
      <BusinessPlatform/>
       <CustomerExperience/>
      <OrganizationLearningImpact/>
